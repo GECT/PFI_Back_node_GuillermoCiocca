@@ -9,9 +9,9 @@ import { getFirestore } from 'firebase/firestore';
 const firebaseConfig = {
     apiKey: process.env.apiKey,
     authDomain: process.env.authDomain,
-    projectId: "back-node-c56b7",
+    projectId: process.env.projectId || "pfiguillermo",
     storageBucket: process.env.storageBucket,
-    messagingSenderId: "795466829073",
+    messagingSenderId: process.env.messagingSenderId,
     appId: process.env.appId
 };
 
