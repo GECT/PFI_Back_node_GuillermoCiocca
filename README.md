@@ -19,7 +19,6 @@ API REST desarrollada con **Node.js**, **Express**, **Firebase Firestore** y aut
 ├── index.js                              # Punto de entrada, middlewares y montaje de rutas
 ├── package.json                          # Dependencias y scripts
 ├── postman_collection.json               # Colección lista para importar en Postman
-├── .env.example                          # Plantilla de variables de entorno
 └── src/
     ├── controllers/
     │   ├── auth.controller.js            # Controlador de autenticación (login)
@@ -53,7 +52,7 @@ API REST desarrollada con **Node.js**, **Express**, **Firebase Firestore** y aut
    ```
 
 3. **Configurar variables de entorno:**
-   Creá un archivo `.env` en la raíz del proyecto tomando como base [.env.example](.env.example):
+   Creá un archivo `.env` en la raíz del proyecto con las siguientes variables:
    ```env
    PORT=3001
    JWT_SECRET_KEY=tu_clave_secreta_jwt
